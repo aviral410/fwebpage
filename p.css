@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: Agency FB;
+}
+.btn{
+    display: block;
+	width: 180px;
+	height: 35px;
+	border: 2px solid red;
+	line-height: 35px;
+	margin: 0 auto;
+    color: red;
+	text-align: center;
+}
+.main_cont{
+	position: relative;
+}
+.main_cont .nav .nav_items{
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+}
+.main_cont .nav .nav_items ul{
+	display: flex;
+}
+.main_cont .nav .nav_items ul li a{
+	color: red;
+	display: flex;
+	padding: 10px;
+	font-size: 30px;
+}
+.main_cont .nav .nav_items ul li a:hover{
+color: cyan;
+transition: 0.01s;
+}
+.main_cont .logo{
+	font-size: 30px;
+	margin-top: 10px;
+	font-family: monotype corsiva;
+	word-spacing: 15px;
+}
+/*banner*/
+.banner_img{
+	background: url("img/ss.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+}
+.banner_img .ban_cont h1{
+	line-height: 30;
+	text-align: center;
+	text-transform: uppercase;	
+}
+/*about*/
+p{
+	font-size: 30px;
+	color: grey;
+	align-items: center;
+}
+.about h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: orange;
+	word-spacing: 10px;
+}
+/*wallpapers*/
+.Wallpapers h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: orange;
+}
+.Wallpapers .wall{
+display: flex;
+justify-content: space-around;
+}
+/*thoughts*/
+.thoughts h1{
+	color: orange;
+	text-transform: uppercase;
+	text-align: center;
+}
+.thoughts p{
+	color: grey;
+	align-items: center;
+	margin: auto;
+}
+/*form*/
+.contact{
+	display: block;
+	text-align: center;
+}
+.contact h1{
+	color: orange;
+	text-transform: uppercase;
+}
+.contact input[type="text"]{
+    display: block;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	width: 100px;
+	height: auto;
+}
+.contact textarea{
+	display: block;
+	width: 250px;
+	height: auto;
+	border: 1px solid;
+	resize: none;
+	margin:auto;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding:20px 0;
+	margin: auto; 
+}
+.footer a{
+	color: white;
+}
+.but{
+	display: block;
+	width: 116px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+    color: red;
+	text-align: center;
+}
+.but a:hover{
+	  border: 1px solid cyan;
+  padding: 15px;
+  background: cyan;
+  background-clip: padding-box;
+transition: 0.01s
+}
+}
+@media (max-width: 720px){
+	.nav{
+		height: auto;
+		flex-direction: column;
+	}
+	.nav ul{
+		flex-direction: column;
+		text-align: center;
+	}
+	.logo{
+		margin-bottom: 25px;
+	}
+	.nav ul li{
+		margin-bottom: 5px;
+	}
+	.ban_cont{
+		margin-top: 35px;
+	}
+}
